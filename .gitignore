@@ -1,0 +1,48 @@
+# Ballerina generates this directory during the compilation of a package.
+# It contains compiler-generated artifacts and the final executable if this is an application package.
+target/
+
+# Ballerina maintains the compiler-generated source code here.
+# Remove this if you want to commit generated sources.
+generated/
+
+# Contains configuration values used during development time.
+# See https://ballerina.io/learn/provide-values-to-configurable-variables/ for more details.
+Config.toml
+
+# File used to enable development-time tracing.
+# This should not be committed to version control.
+trace_enabled.bal
+
+# Dependency lock file (uncomment if you don't want to commit it for libraries;
+# generally recommended to KEEP this committed for applications for reproducible builds)
+# Dependencies.toml
+
+# Environment / secrets
+.env
+*.env.local
+
+# Logs
+*.log
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+
+# Ballerina test coverage reports
+target/report/
+*.coverage
+
+# Compiled artifacts / archives
+*.jar
+*.war
+*.class
